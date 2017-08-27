@@ -1,0 +1,116 @@
+repositories = ["operable/circuit",
+                "operable/circuit-driver",
+                "operable/cog",
+                "operable/cog-rb",
+                "operable/cogctl",
+                "operable/conduit",
+                "operable/gbexec",
+                "operable/go-relay",
+                "operable/greenbar",
+                "operable/greenbar_markdown",
+                "operable/piper",
+                "operable/probe",
+                "operable/spanner",
+                "operable/template_processors"]
+
+# Cog Colors
+########################################################################
+# 25627f => dark blue -> area
+# 2e7893 => middle blue
+# 3d95bc => light blue => effort
+# 393a38 => dark gray => flag
+# 4c4c49 => middle gray
+# 8e8f8c => lighter gray
+# c8c8c4 => lightest gray => type
+
+# Area
+########################################################################
+
+[[label]]
+name = "area/adaptor"
+color = "25627f"
+
+[[label]]
+name = "area/adaptor/hipchat"
+color = "25627f"
+
+[[label]]
+name = "area/adaptor/slack"
+color = "25627f"
+
+[[label]]
+name = "area/api"
+color = "25627f"
+
+[[label]]
+name = "area/build"
+color = "25627f"
+
+[[label]]
+name = "area/cli"
+color = "25627f"
+
+[[label]]
+name = "area/commands"
+color = "25627f"
+
+[[label]]
+name = "area/documentation"
+color = "25627f"
+
+[[label]]
+name = "area/executor"
+color = "25627f"
+
+[[label]]
+name = "area/relay"
+color = "25627f"
+
+[[label]]
+name = "area/rules"
+color = "25627f"
+
+[[label]]
+name = "area/testing"
+color = "25627f"
+
+# Effort
+########################################################################
+
+[[label]]
+name = "effort/easy"
+color = "3d95bc"
+
+[[label]]
+name = "effort/medium"
+color = "3d95bc"
+
+[[label]]
+name = "effort/difficult"
+color = "3d95bc"
+
+# Flag
+########################################################################
+
+[[label]]
+name = "flag/needs-discussion"
+color = "393a38"
+
+[[label]]
+name = "flag/waiting-for-response"
+color = "393a38"
+
+# Type
+########################################################################
+
+[[label]]
+name = "type/bug"
+color = "c8c8c4"
+
+[[label]]
+name = "type/chore"
+color = "c8c8c4"
+
+[[label]]
+name ="type/feature"
+color = "c8c8c4"
